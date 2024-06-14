@@ -14,10 +14,10 @@ export default function Home() {
             <button className={styles.navButton}>Contact</button>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className={styles.spacer}></div>
-
+      */}
       <div className={styles.mainGrid}>
         <div className={styles.sidebar}>
           <ProfileCard />
