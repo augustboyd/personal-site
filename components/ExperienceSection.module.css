@@ -1,0 +1,18 @@
+/* experience section styles */
+.experience {
+  margin-top: 20px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+.skillTags span {
+  background-color: #eef;
+  color: #00f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}

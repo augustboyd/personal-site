@@ -1,0 +1,31 @@
+/* project section styles */
+.projects {
+  margin-top: 20px;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.projectImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.projectContent {
+  flex: 1;
+}
+
+.projectTags span {
+  background-color: #eef;
+  color: #00f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}

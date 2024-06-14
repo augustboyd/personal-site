@@ -1,17 +1,22 @@
 .navBar {
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  padding: 10px 20px;
+  overflow: hidden;
+  z-index: 1000;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  border-radius: 50px;
-  background-image: linear-gradient(90deg, #fff, #ebecf0);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-    /* Outer shadow */ inset 0 0 0 2px rgba(0, 0, 0, 0.05); /* Inner shadow */
+  /*
+  border-radius: 15px;
+  background: linear-gradient(to right, #f8f8f8, #e8e8e8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  */
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navButtonContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   gap: 10px;
   margin-right: 4%;
 }
@@ -23,6 +28,7 @@
   font-size: larger;
   cursor: pointer;
   color: #777;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
 .navButton:hover {
@@ -30,9 +36,64 @@
 }
 
 .navLogo {
-  border-radius: 50%;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+}
+
+.containerTest {
+  height: 100%;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-nav */
+  border-radius: 1.25rem; /* rounded-2xl */
+  background-color: #f8f9fa; /* bg-wash */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.centeredItem {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100%;
+}
+
+.headerTest {
+  width: 100%;
+  background-color: #fff; /* bg-card */
+  border-radius: 1.25rem 1.25rem 0 0; /* rounded-t-2xl */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* border-b border-black/5 */
+}
+
+.contentTest {
+  font-family: "JetBrains Mono";
+  font-size: smaller;
+  color: #777;
+}
+
+.spacer {
+  height: 1rem;
+}
+
+/* grid definitions */
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 50px;
+}
+
+.sidebar {
+  grid-column: 1;
+}
+
+.content {
+  background-color: #ffffff; /* Optional: Add some background color to the content area */
+  padding: 20px;
+  border-radius: 8px;
 }
