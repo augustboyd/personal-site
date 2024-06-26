@@ -1,19 +1,25 @@
 /* project section styles */
 .projects {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 25px;
 }
 
-.project {
-  display: flex;
+.projectItem {
   margin-bottom: 20px;
 }
 
+.projectTitle {
+  margin: 5x;
+}
+
 .projectImage {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
   border-radius: 8px;
   margin-right: 20px;
+  object-fit: cover;
 }
 
 .projectContent {

@@ -51,10 +51,11 @@ const ProfileCard: React.FC = () => {
           />
         </a>
       </div>
+      <h3>About</h3>
       <p className={styles.about}>
-        Quantitative economics graduate, enjoy working with business
-        stakeholders to help support strategy based on quantitative insights and
-        statistical models.
+        Recent Computer Science graduate with a strong foundation in Java,
+        Python, and data analysis. Passionate about leveraging technical
+        expertise to drive impactful business insights and solutions.
       </p>
       <div className={styles.skills}>
         <h3>Skills</h3>

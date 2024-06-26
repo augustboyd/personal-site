@@ -5,3 +5,13 @@
 body {
   font-family: "JetBrains Mono", monospace;
 }
+
+.topBar {
+  height: 4px; /* Adjust the height as necessary */
+  background-color: #0000ff; /* Blue color */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays on top */
+}

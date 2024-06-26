@@ -3,6 +3,7 @@
   background-color: rgba(242, 242, 247, 0.409);
   padding: 20px;
   border-radius: 8px;
+  margin-top: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -21,7 +22,7 @@
 }
 
 .about {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .skills {

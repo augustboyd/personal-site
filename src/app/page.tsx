@@ -23,8 +23,14 @@ export default function Home() {
           <ProfileCard />
         </div>
         <div className={styles.content}>
-          <ProjectSection />
-          <ExperienceSection />
+          <div className={styles.projectContent}>
+            <h2 className={styles.projectTitle}>Projects</h2>
+            <ProjectSection />
+          </div>
+          <span className={styles.spacer}></span>
+          <div className={styles.experienceContent}>
+            <ExperienceSection />
+          </div>
         </div>
       </div>
     </>
